@@ -1,4 +1,0 @@
-#This is a text file to help me track where I am in the book.
-
-#Chapter 2
-#Adding Whitespace to Strings with Tabs or Newlines
