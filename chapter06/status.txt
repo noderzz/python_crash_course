@@ -1,2 +1,2 @@
 #Adding a marker to show where I am in the material
-Chapter 5 - if Statements
+Chapter 6 - A Dictionary of Similar Objects
