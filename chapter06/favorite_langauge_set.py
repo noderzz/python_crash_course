@@ -3,8 +3,9 @@ favorite_languages = {
     'sarah': 'c',
     'edward':'ruby',
     'phil':'python',
+    'george':'python'
 }
 
 print("The following languages have been mentioned:")
-for language in favorite_languages.values():
+for language in set(favorite_languages.values()):
     print(language.title())
