@@ -11,7 +11,9 @@ favorite_languages = {
     'phil':'python',
     'george':'python'
 }
+
 not_taken_poll = ["jane","jack","carter","edward","george"]
+
 for name in not_taken_poll:
     if name in favorite_languages.keys():
         print(f"Thank you {name.title()} for taking the poll!")
