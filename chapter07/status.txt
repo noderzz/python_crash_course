@@ -1,2 +1,2 @@
 #Adding a marker to show where I am in the material
-Chapter 6 - These aliens all have the same characteristics, but Python considers each one a separate object, which allows us to modify each alien individually.
+Chapter 7 - Moving Items from One List to Another
