@@ -5,7 +5,7 @@ Create several instances representing different users, and call both methods for
 '''
 
 class User:
-    ''' '''
+    '''Gathers information about a user.'''
     def __init__(self, first_name, last_name, username='NOT SPECIFIED', age="NOT SPECIFIED", location="NOT SPECIFIED"):
         self.first_name = first_name
         self.last_name = last_name
@@ -14,10 +14,11 @@ class User:
         self.location = location
 
     def describe_user(self):
-        '''Prints a summary of the users's information'''
+        '''Prints a summary of the users's information.'''
         print(f"USERNAME: {self.username}\n\tFirst Name: {self.first_name.title()}\n\tLast Name: {self.last_name.title()}\n\tAge: {self.age}\n\tLocation: {self.location}")
 
     def greet_user(self):
+        '''Prints a personalized greeting to the user.'''
         print(f"Hello {self.first_name.title()} {self.last_name.title()}!")
 
 guy = User("mike","johnson")
