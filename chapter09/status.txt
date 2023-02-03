@@ -1,2 +1,2 @@
 #Adding a marker to show where I am in the material
-Chapter 9 - Working with Classes and Instances
+Chapter 9 - Inheritance
