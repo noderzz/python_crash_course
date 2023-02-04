@@ -1,2 +1,2 @@
 #Adding a marker to show where I am in the material
-Chapter 9 - Inheritance
+Chapter 9 - Instances as Attributes
