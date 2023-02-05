@@ -1,2 +1,2 @@
 #Adding a marker to show where I am in the material
-Chapter 9 - Instances as Attributes
+Chapter 9 - Try It Yourself - Privileges
