@@ -1,3 +1,2 @@
 #Adding a marker to show where I am in the material
-Chapter 10 - Try It Yourself \n 10-1. Learning Python
-
+Chapter 10 - Writing Multiple Lines
