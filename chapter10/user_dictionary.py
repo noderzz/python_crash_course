@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 def get_stored_info(path):
-    """Get stored username if available."""
+    """Get stored information if available."""
     if path.exists():
         contents = path.read_text()
         information = json.loads(contents)
@@ -12,7 +12,7 @@ def get_stored_info(path):
         return None
     
 def get_new_info(path):
-    """Prompt for a new username."""
+    """Prompt for new information."""
     wanted_info = ["first name", "last name", "username", "password"]
     information = {}
     for item in wanted_info:
@@ -24,7 +24,7 @@ def get_new_info(path):
     return contents
 
 def greet_user():
-    """Greet the user by name."""
+    """Display all data we have on the user."""
     path = Path('chapter10/username2.json')
     information = get_stored_info(path)
     if information:

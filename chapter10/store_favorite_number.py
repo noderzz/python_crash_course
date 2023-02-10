@@ -3,6 +3,6 @@ from pathlib import Path
 import json
 
 favorite_number = input("What is your favorite number? ")
-path = Path("chapter10/favorite_number.txt")
+path = Path("chapter10/favorite_number.json")
 json_number = json.dumps(int(favorite_number))
 path.write_text(json_number)

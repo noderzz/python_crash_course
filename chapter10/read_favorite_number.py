@@ -2,7 +2,7 @@
 from pathlib import Path
 import json
 
-path = Path("chapter10/favorite_number.txt")
+path = Path("chapter10/favorite_number.json")
 favorite_number = path.read_text()
 json_number = json.loads(favorite_number)
 print(f"Hey, I know your favorite number!\nIt's {json_number}!")
