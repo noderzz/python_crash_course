@@ -10,3 +10,8 @@ def test_city_country():
     formatted_string = city_country('santiago', 'chile')
     assert formatted_string == "Santiago, Chile"
 
+def test_city_country_population():
+    """Test a string with a population."""
+    formatted_string = city_country('santiago', 'chile', 5000000)
+    assert formatted_string == "Santiago, Chile - Population 5000000"
+
