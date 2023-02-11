@@ -1,2 +1,0 @@
-#Adding a marker to show where I am in the material
-Chapter 11 - Testing a Class
